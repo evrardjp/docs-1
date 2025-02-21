@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec tox -e yamllint,bashate,markdownlint,check
